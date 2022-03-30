@@ -1,3 +1,4 @@
+# 값은 정상적으로 출력되나 페이지에서 런타임 에러
 import time
 s = time.time()
 
