@@ -18,7 +18,7 @@ for test_case in range(1, T + 1):
 	k_score = total_score[K-1]
 	total_score.sort(reverse=True) # 내림차순 정렬
 
-	k_rank = total_score.index(k_score)//(N//10)
+	k_rank = total_score.index(k_score)//(N//10) # 인덱스(순위)를 찾음
 	
 	# output
 	print(f'#{test_case} {RANK[k_rank]}')
