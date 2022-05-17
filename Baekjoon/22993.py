@@ -1,6 +1,5 @@
 import sys
 
-from cv2 import sort
 sys.stdin = open("22993_input.txt", "r")
 
 # input
