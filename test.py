@@ -1,3 +1,2 @@
-a = '9-00009'
-
-print(eval(a))
+a = '-0009'
+print(int(a))
